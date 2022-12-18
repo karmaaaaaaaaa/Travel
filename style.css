@@ -201,7 +201,8 @@ h3{
 
 }
 .layer:hover{
-    background: rgba(226, 0, 0, 0.3);
+    background: lightblue;
+    opacity: 0.5;
 }
 .layer h3{
     width: 100%;
@@ -215,9 +216,15 @@ h3{
 
 
 }
+.layer h3 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
 
 .layer:hover h3{
-    bottom: 30%;
+    bottom: 40%;
     opacity: 1;
     transition: 0.5s;
 }
