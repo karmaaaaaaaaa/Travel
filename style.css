@@ -264,14 +264,34 @@ h3{
         margin-right: 15px;
        
     }
-    .testimonial-col{
-        flex-basis: 44%;
-        border-radius: 10px;
-        margin-bottom: 5%;
-        text-align: left;
-        background: #fff3f3;
-        cursor: pointer;
-        display: flex;
-    }
+   
 
+}
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(astro.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    padding:100px 0;
+}
+
+.cta h1{
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .cta h1{
+
+        font-size: 14px;
+
+    }
+    .hero-btn{
+        font-size: 8px;
+        border: 0.2 solid;
+    }
+    
 }
