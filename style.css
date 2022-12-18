@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -310,3 +312,22 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
+
+.icons a{
+    text-decoration: none;
+   
+
+}
+.icons ion-icon{
+    color: #f44336;
+    font-size: 18px;
+    padding-left: 13px;
+    transition: 0.3s ease;
+
+}
+.icons ion-icon:hover{
+    color: black;
+    
+   
+}
+
