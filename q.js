@@ -55,7 +55,6 @@ options: [
 "13,7 млрд"
 ]
 },
-
 ];
 
 const start_btn = document.querySelector(".start_quiz");
